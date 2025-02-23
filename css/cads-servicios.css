@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--fondo-body);
+    color: #343a40;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  .card-body {
+    padding: 2rem;
+  }
+  .card-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  .list-unstyled li i {
+    color: #007bff;
+    margin-right: 0.5rem;
+  }
+
+.img-cards{
+    width: 100%;
+    height: 20rem;
+}
